@@ -27,8 +27,8 @@ dependencies:
     specifier: ^1.5.3
     version: 1.5.3
   shaka-player:
-    specifier: 4.8.2
-    version: 4.8.2
+    specifier: 4.16.49
+    version: 4.16.49
   vue:
     specifier: 3.4.25
     version: 3.4.25(typescript@5.4.5)
@@ -2957,10 +2957,6 @@ packages:
     resolution: {integrity: sha512-k4J8NrtJ9QrvHLRo8Q18OncqBCB7tIUyqxRcJnlonQ0ioHKYB988GcDFF3ZePmnb8eHEopDs/wPHR/iGAFgoUQ==}
     dev: true
 
-  /eme-encryption-scheme-polyfill@2.1.2:
-    resolution: {integrity: sha512-ccDEgbk5+hJbzEDcUkID0chK+vy/pXi1oQIIADGpyYdZThAbLLod7WZKryU32IWmFX4BAWmzZtf4LeUnnNzcQQ==}
-    dev: false
-
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
     dev: false
@@ -4617,11 +4613,9 @@ packages:
       has-property-descriptors: 1.0.2
     dev: true
 
-  /shaka-player@4.8.2:
-    resolution: {integrity: sha512-A70wGBj7Eys0pkJHIRa+dDbV/Set+duaKC/h44Xh+0ExJC/uBGilgoYFW2TlW8o/4XSUqBh9ymFWFwuGJ9aLUg==}
-    engines: {node: '>=14'}
-    dependencies:
-      eme-encryption-scheme-polyfill: 2.1.2
+  /shaka-player@4.16.49:
+    resolution: {integrity: sha512-P1/pNLYak3e92h7U4n3JQGLmeCozq/haLKA9WVll1iWBZnE/zhW/qTzAiARKnRFs0VI6v7fVgTLSPWpqAVf/iA==}
+    engines: {node: '>=18'}
     dev: false
 
   /shebang-command@2.0.0:
@@ -4687,6 +4681,7 @@ packages:
   /source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
     dependencies:
       whatwg-url: 7.1.0
     dev: true
